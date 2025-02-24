@@ -5,7 +5,7 @@ import { FaTelegram } from "react-icons/fa";
 function App() {
   return (
     <main className="container">
-      <video autoPlay loop muted className="background-video">
+      <video autoPlay loop muted playsInline className="background-video">
         <source src="/images/gydro-bg.mp4" type="video/mp4" />
       </video>
       <div className="content">
